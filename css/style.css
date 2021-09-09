@@ -1,0 +1,1505 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-color: rgb(109, 108, 108);
+}
+.navbar {
+    
+    width: 100%;
+    height: 10vh;
+    background-color:rgb(18, 11, 87);
+    padding: 0px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.navbar .sear{
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(12, 21, 110);
+    border: none;
+    color: white;
+}
+.nav li{
+    float: right;
+   list-style: none;
+   padding-left: 300px;
+   padding-top: 0px;
+   padding-right: 20px;
+   box-sizing: border-box;
+}
+.nav li a{
+text-decoration: none;
+color: black;
+font-size: 20px;  
+}
+.navbar img{
+    position: absolute;
+    top: 0px;
+    padding-right: 20px;
+}
+.nav2{
+    display: flex;
+    position: absolute;
+    right: 600px;
+    top: 25px;
+}
+.nav2 li{
+    padding-right: 25px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+.dr{
+    position: absolute;
+    right: 30px;
+}
+.img{
+    position: absolute;
+    right: 190px;
+    top: 15px;
+
+}
+.img  img{
+    width: 70px;
+    height: 5vh;
+}
+.img li{
+    list-style: none;
+}
+.sidebar{
+    height: 100%;
+    background-color: black;
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 80px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top:71px; /* Stay at the top */
+    left: 0;
+    background-color: rgb(252, 248, 248); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #d12424;
+  }
+  .navright {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 50px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top:74px; /* Stay at the top */
+    right: 0;
+    background-color: rgb(252, 248, 248); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .navright a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .navright a:hover {
+    color: #d12424;
+  }
+  
+  /* Style page content */
+  .main {
+      position: relative;
+    margin-left: 120px; /* Same as the width of the sidebar */
+    padding: 20px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .side1{
+      background-color: #fff;
+      height: 45vh;
+      border-radius: 20px;
+      position: absolute;
+      top: -1750px;  
+      
+  }
+  .f1{
+      position: relative;
+      margin-bottom: 10px;
+  }
+  .f1 p{
+      position: absolute;
+      top: 32px;
+      right: 180px;
+  }
+  .f1 h6{
+      padding-right: 100px;
+  }
+  .sidecontent{
+      position: relative;
+  }
+  .side2{
+    position: absolute;
+    background-color: #fff;
+    height: 35vh;
+    border-radius: 20px;
+    top: -1350px;
+    
+  }
+  .row {
+   float: left;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  /*stories*/
+  .fg{
+      position: relative;
+      top: 300px;
+      left: 200px;
+      background-color: #d12424;
+      width: 200px;
+      height: 10vh;
+  }
+  .est{
+      position: relative;
+  }
+  .story{
+      position: absolute;
+     display: flex;
+
+}
+.im {
+    background-image: url(../images/b1.jpg);
+    background-size:cover;
+    background-position:right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+
+}
+.is{
+    background-image: url(../images/p2.jpg);
+    background-size:cover;
+    background-position:right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.it{
+    background-image: url(../images/p3.jpg);
+    background-size:cover;
+    background-position:right;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.ir{
+    background-image: url(../images/p5.jpg);
+    background-size:cover;
+    background-position:right;
+    background-repeat: no-repeat; 
+    border-radius: 20px;
+}
+/*post*/
+.post{
+    position: relative;
+    width: 900px;
+    height: 40vh;
+    background-color: #fff;
+    left: 500px;
+    top: 80px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.post img{
+    position: absolute;
+    top: 10px;
+    width: 100px;
+    height: 10vh;
+}
+.post .tt{
+    width: 150%;
+    height: 10vh;
+    padding: 15px;
+    margin-left: -25px;
+    margin-top: 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+.pp{
+    position: absolute;
+    top: 5px;
+    left: 390px;
+}
+.pp button{
+    background-color: red;
+    color: #fff;
+    width: 200px;
+    height: 8vh;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.ew{
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+.hh{
+    position: absolute;
+    width: 850px;
+    height: 20vh;
+    left: -150px;
+    top: 80px;
+}
+.ca{
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+.ca i{
+    position: absolute;
+    color: red;
+    top: 5px;
+}
+.sp{
+    position: absolute;
+    left: 125px;
+    top: 210px;
+}
+.pa{
+    position: absolute;
+    top: 210px;
+    left: 300px; 
+}
+.pa i{
+    position: absolute;
+    color: green;
+    top: 5px;
+}
+.ps{
+    position: absolute;
+    left: 330px;
+    top: 207px;  
+}
+.aa{
+    position: absolute;
+    top: 210px;
+    left: 510px; 
+}
+.aa i{
+    position: absolute;
+    color: yellow;
+    top: 5px;
+}
+.sd{
+    position: absolute;
+    left: 535px;
+    top: 208px;  
+}
+/************post2******************************/
+.post2{
+    position: relative;
+    width: 900px;
+    height: 70vh;
+    background-color: rgb(250 250 250);
+    left: 500px;
+    top: 60px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-image: url(../images/p1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.post2 .hj{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+
+}
+.post2 .like{
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+    top: 476px;
+
+}
+.like .i1{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+.like .i2{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+}
+.like .i3{
+    position: absolute;
+    top: 15px;
+    left: 800px;
+}
+
+.post2 .mm{
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    right: 600px;
+}
+.post2 .yy{
+position: absolute;
+top: 20px;
+left: 164px;
+}
+.vb span{
+    position: absolute;
+    top: 21px;
+    left: 850px;
+}
+.post2 .qq {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #d12424;
+    border-radius: 50%;
+    top: 104px;
+    left: 342px;
+    background-image: url(../images/p2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 4px solid #fff;
+}
+
+/*****************post2**************************/
+/************post3**************/
+.post3{
+    position: relative;
+    width: 900px;
+    height: 85vh;
+    background-color: rgb(250 250 250);
+    left: 500px;
+    top: 100px;
+    border-radius: 10px;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.post3 .vid{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    top: 100px;
+    background-color: #f44336;
+}
+.vid video{
+    width: 100%;
+  height: auto;
+}
+.post3 .hj{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+
+}
+.post3 .like{
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    background-color: #fff;
+    top: 594px;
+
+}
+ .post3 .like .i1{
+    position: absolute;
+    top: 15px;
+    left: 30px;
+}
+ .post3 .like .i2{
+    position: absolute;
+    top: 15px;
+    left: 200px;
+}
+ .post3 .like .i3{
+    position: absolute;
+    top: 15px;
+    left: 800px;
+}
+
+.post3 .mm{
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    right: 600px;
+}
+.post3 .yy{
+position: absolute;
+top: 20px;
+left: 164px;
+}
+ .post3 .vb span{
+    position: absolute;
+    top: 21px;
+    left: 850px;
+}
+/**********************post3*******************/
+/********************************login and sign up***************************************************/
+.in{
+    position: relative;
+    background-image: url("../images/bck.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.in h1{
+    position: absolute;
+   color: tomato;
+   top: 180px;
+   left: 530px;
+   font-size: 100px;
+}
+.animate{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(54, 53, 53);
+    top: 350px;
+    left: 680px;
+}
+.action{
+    position: absolute;
+    top: 25px;
+    left: 28px;
+}
+.action i{
+    position: absolute;
+   color: #fff;
+   font-size: 50px;
+   animation-name: example;
+  animation-duration: 1s;
+  
+  
+}
+
+@keyframes example {
+   
+    
+    
+     0%  {  transform: rotate(180deg);}
+    100% {  transform: rotate(360deg);}
+  }
+/***********************************************************/
+* {box-sizing: border-box}
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+.edit{
+    position: relative;
+}
+.edit button{
+    position: absolute;
+    top: 550px;
+    width: 150px;
+    left: 800px;
+    border-radius: 10px;
+    background-color: tomato;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+/*close i*/
+.clo{
+    position: relative;
+}
+.clo i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+/***************************login*******************************/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  /***button***/
+  .ledit{
+      position: relative;
+  }
+  .ledit button{
+      position: absolute;
+      top: 550px;
+      left: 650px;
+      width: 150px;
+      border-radius: 10px;
+      background-color: #fff;
+      color: #000;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    /* Position it in the top right corner outside of the modal */
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  /* Close button on hover */
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+  }
+  
+  @keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+  }
+
+
+
+
+
+
+
+
+
+
+/*********************************************/
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #02092b;
+    min-width: 400px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+/*************************************/
+.dropdown-content h5 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -8px;
+}
+.side11{
+    position: relative;
+}
+.dropdown-content .side11 .fr{
+    position: absolute;
+    top: -19px;
+    left: 110px;
+
+}
+.dropdown-content .f11{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.dropdown-content .f11 img{
+    top: 10px;
+    left: 20px;
+}
+.dropdown-content .f11 button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: red;
+}
+.dropdown-content .f11 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+}
+/****************/
+.dropdown-content .f12{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.dropdown-content .f12 img{
+    top: 172px;
+    left: 20px;
+}
+.dropdown-content .f12 button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: red;
+}
+.dropdown-content .f12 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+}
+/***********/
+.dropdown-content .f13{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.dropdown-content .f13 img{
+    top: 338px;
+    left: 20px;
+}
+.dropdown-content .f13 button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: red;
+}
+.dropdown-content .f13 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+}
+/*********************************/
+.dropdown-content .f14{
+    box-sizing: border-box;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.dropdown-content .f14 img{
+    top: 502px;
+    left: 20px;
+}
+.dropdown-content .f14 button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: red;
+}
+.dropdown-content .f14 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+}
+
+
+/*************************messages*****************/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropd {
+    display: none;
+    position: absolute;
+    background-color: #02092b;
+    min-width: 400px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropd a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+/***************************************/
+.dropd h5 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -38px;
+    margin-left: 20px;
+}
+
+.side111{
+    position: relative;
+}
+.dropd .side111 .fr{
+    position: absolute;
+    top: 10px;
+    left: 110px;
+
+}
+.dropd .f111{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.dropd .f111 img{
+    top: 10px;
+    left: 20px;
+}
+.dropd .f111 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+}
+.f111 span{
+    position: absolute;
+    color: #fff;
+    left: 101px;
+    top: 45px;
+    font-size: 11px;
+}
+.f111 .h{ 
+    position: absolute;
+    color: #5371c5;
+    left: 331px;
+    top: 32px;
+    font-size: 13px;
+}
+
+/****************/
+.dropd .f222{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.dropd .f222 img{
+    top: 100px;
+    left: 20px;
+}
+.dropd .f222 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+}
+.f222 span{
+    position: absolute;
+    color: #fff;
+    left: 102px;
+    top: 130px;
+    font-size: 11px;
+}
+.f222 .m{ 
+    position: absolute;
+    color: #5371c5;
+    left: 331px;
+    top: 120px;
+    font-size: 13px;
+}
+/***********/
+.dropd .f333{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.dropd .f333 img{
+    top: 189px;
+    left: 17px;
+}
+.dropd .f333 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+}
+.f333 span{
+    position: absolute;
+    color: #fff;
+    left: 102px;
+    top: 222px;
+    font-size: 11px;
+}
+.f333 .k{ 
+    position: absolute;
+    color: #5371c5;
+    left: 331px;
+    top: 208px;
+    font-size: 13px;
+}
+/*********************************/
+.dropd .f444{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.dropd .f444 img{
+    top: 278px;
+    left: 20px;
+}
+.dropd .f444 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+}
+.f444 span{
+    position: absolute;
+    color: #fff;
+    left: 102px;
+    top: 309px;
+    font-size: 11px;
+}
+.f444 .n{ 
+    position: absolute;
+    color: #5371c5;
+    left: 331px;
+    top: 297px;
+    font-size: 13px;
+}
+/********************notifications**************************/
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .opd {
+    display: none;
+    position: absolute;
+    background-color: #02092b;
+    min-width: 400px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .opd a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+/***************************************/
+.opd h5 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: -3px;
+    margin-left: 20px;
+}
+
+.side1111{
+    position: relative;
+}
+.opd .side1111 .fr{
+    position: absolute;
+    top: 10px;
+    left: 110px;
+
+}
+.opd .f1111{
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.opd .f1111 img{
+    top: 10px;
+    left: 20px;
+}
+.opd .f1111 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+    font-size: 15px;
+}
+.f1111 span{
+    position: absolute;
+    color: #fff;
+    left: 101px;
+    top: 52px;
+    font-size: 11px;
+}
+.f1111 .z{ 
+    position: absolute;
+    color: #5371c5;
+    left: 331px;
+    top: 32px;
+    font-size: 13px;
+}
+
+/****************/
+.opd .f2222{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.opd .f2222 img{
+    top: 138px;
+    left: 20px;
+}
+.opd .f2222 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+    font-size: 15px;
+}
+.f2222 span{
+    position: absolute;
+    color: #fff;
+    left: 102px;
+    top: 182px;
+    font-size: 11px;
+}
+.f2222 .x{ 
+    position: absolute;
+    color: #5371c5;
+    left: 331px;
+    top: 120px;
+    font-size: 13px;
+}
+/***********/
+.opd .f3333{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.opd .f3333 img{
+    top: 227px;
+    left: 17px;
+}
+.opd .f3333 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+    font-size: 15px;
+}
+.f3333 span{
+    position: absolute;
+    color: #fff;
+    left: 102px;
+    top: 270px;
+    font-size: 11px;
+}
+.f3333 .c{ 
+    position: absolute;
+    color: #5371c5;
+    left: 331px;
+    top: 208px;
+    font-size: 13px;
+}
+/*********************************/
+.opd .f4444{
+    box-sizing: border-box;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 20, 68);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+.opd .f4444 img{
+    top: 316px;
+    left: 20px;
+}
+.opd .f4444 p{
+    color: #fff;
+    padding-top: 11px;
+    padding-left: 95px;
+    font-size: 15px;
+}
+.f4444 span{
+    position: absolute;
+    color: #fff;
+    left: 102px;
+    top: 360px;
+    font-size: 11px;
+}
+.f444 .v{ 
+    position: absolute;
+    color: #5371c5;
+    left: 331px;
+    top: 297px;
+    font-size: 13px;
+}
+
+/****************start profile ******************/
+
+/***backimg****/
+.backimg{
+    position: relative;
+    width: 100%;
+    height: 40vh;
+}
+.backimg img{
+    width: 100%;
+    height: 40vh;
+}
+.backimg .bt{
+    position: absolute;
+    top: 230px;
+    right: 40px;
+}
+/********nav2*******/
+.na2{
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    background-color: #fff;
+}
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #db5618;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .hp{
+      position: absolute;
+      top: 20px;
+      left: 290px;
+  }
+  .ph{
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-image: url(../images/p1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      top: -39px;
+      left: 175px;
+      border: 3px solid #fff;
+  }
+  /****side1*****/
+  .zz{
+      position: relative;
+      width: 250px;
+      height: 50vh;
+      top: 50px;
+      left: 10px;
+      margin-bottom: 20px;
+      background-color: #fff;
+  }
+  .r1{
+      position: absolute;
+      top: 60px;
+      left: 15px;
+  }
+  .r2{
+    position: absolute;
+    top: 100px;
+    left: 15px;
+}
+.r3{
+    position: absolute;
+    top: 140px;
+    left: 15px;
+}
+.r4{
+    position: absolute;
+    top: 178px;
+    left: 15px;
+}
+.r5{
+    position: absolute;
+    top: 218px;
+    left: 15px;
+}
+.wn{
+    position: absolute;
+    top: 62px;
+    left: 130px;
+}
+/**********sid1.1*************/
+.zzz{
+    position: relative;
+    width: 250px;
+    height: 30vh;
+    top: 50px;
+    left: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.zzz1 span{
+    position: absolute;
+    top: 9px;
+    left: 190px;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  /******side2.1*****/
+  .nnn{
+    position: relative;
+    width: 250px;
+    height: 40vh;
+    top: -600px;
+    left: 1255px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.nnn1 span{
+    position: absolute;
+    top: 9px;
+    left: 190px;
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  /*********side2.2******************/
+  .hh{
+    position: relative;
+    width: 250px;
+    height: 50vh;
+    top: -570px;
+    left: 1255px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.hh1 span{
+    position: absolute;
+    top: 15px;
+    left: 210px;
+}
+.oo h6{
+    position: absolute;
+    top: 80px;
+}
+.oo p{
+    position: absolute;
+    top: 100px;
+    left: 63px;
+}
+.oo2 h6{
+    position: absolute;
+    top: 140px;
+}
+.oo2 p{
+    position: absolute;
+    top: 160px;
+    left: 63px;
+}
+.oo3 h6{
+    position: absolute;
+    top: 200px;
+}
+.oo3 p{
+    position: absolute;
+    top: 215px;
+    left: 65px;
+}
+.oo4 h6{
+    position: absolute;
+    top: 260px;
+}
+.oo4 p{
+    position: absolute;
+    top: 275px;
+    left: 65px;
+}
+.oo5 h6{
+    position: absolute;
+    top: 320px;
+}
+.oo5 p{
+    position: absolute;
+    top: 340px;
+    left: 65px;
+}
+/*************post1*********/
+.po1{
+    position: relative;
+    width: 800px;
+    height: 40vh;
+    background-color: #fff;
+    top: -1310px;
+    left: 350px;
+}
+.po2{
+    position: relative;
+    width: 800px;
+    height: 50vh;
+    background-color: rgb(250, 248, 248);
+    top: -1250px;
+    left: 350px;  
+}
+.po3{
+    position: relative;
+    width: 800px;
+    height: 50vh;
+    background-color: rgb(250, 248, 248);
+    top: -1220px;
+    left: 350px;  
+}
+
+
+
+
+
+
+
+
+/****************end profile ******************/
